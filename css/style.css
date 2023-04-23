@@ -50,3 +50,127 @@ table {
 
 
 /* Write your css below here */
+
+body, p{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+    vertical-align: middle;
+}
+
+nav img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+nav img:hover {
+    border: 5px solid #8C8B8A;
+    box-shadow: 2px 2px 5px rgba(0 0 0 /50%);
+}
+  
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+footer a{
+    color: rgb(112 117 122);
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 5px rgba(0 0 0 /30%);
+}
+
+input[type="text"]:hover {
+    box-shadow: 0 0 5px rgba(0 0 0 /30%);
+}
+
+main{
+    width: 50%;
+    margin: 6.3em auto;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid #d4d0d0;
+}
+
+.btns-container{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.btns-container button{
+    padding: 1em;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+.btns-container p{
+    margin: 20px auto;
+}
+
+.btns-container a{
+    color: blue;    
+}
+
+footer{
+    background-color: #F2F2F2;
+    margin-top: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112 117 122);
+    
+}
+
+
+.footer-top{
+    padding: 1em;
+}
+
+.footer-bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+.left a{
+    margin-right: 1em;
+    color: rgb(112 117 122);
+}
+
+.right a{
+    margin-left: 1em;
+    color: rgb(112 117 122);
+}
