@@ -126,8 +126,7 @@ input{
     padding: 1em;
     border: none;
     flex: 1;
-    height: 20px; ;
-    background-color: aqua;
+    height: 18px;
 }
 
 .search-mic img{
