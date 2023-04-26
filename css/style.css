@@ -127,6 +127,7 @@ input{
     border: none;
     flex: 1;
     height: 18px;
+    outline: none;
 }
 
 .search-mic img{
