@@ -12,5 +12,5 @@
 - Mr Johnson Promise (JP)
 - Mr Patrick
 ## Live Site
-Click [gitHere] to view that live site
+Click [Here](https://bolowys33.github.io/lesson_one_two_final_task_bolodeoku_taiwo/) to view that live site
 ## This is a work of LM TechHub.
